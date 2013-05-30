@@ -1,0 +1,244 @@
+/*css de ifisc*/
+/*estylos del menu*/
+#menu {
+	background-color: #5a5959;
+	float: left;
+	height: 100%;
+	width: 165px;
+}
+#menu h3 {
+	font-family: arial;
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+	padding: 4px 0 4px 10px;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(5%,rgba(90,89,89,1)),color-stop(85%,rgba(66,65,65,1)));
+	border-top: solid #6b6b6b 1px;
+	border-bottom: solid #3d3d3d 1px;
+	text-shadow: 0 -1px 1px #333;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	width: inherit;
+}
+#menu ul li a:link,
+#menu ul li a:visited {
+	border-bottom: solid #333 1px;
+	box-shadow: 0 1px 0 #727272;
+	color: #fff;
+	display: block;
+	font-family: arial;
+	font-size: 14px;
+	padding: 10px 0 10px 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #000;
+	width: 165px;
+}
+#menu ul li a:hover,
+#menu ul li a:active {
+	background-color: #716f6f;
+}
+/*Fin de estylos del menu*/
+
+#errorRed h6{
+	color: #FF0000;
+	background-color: #ffffff;
+}
+#exitoBlue h6{
+	color: #00ff00;
+	background-color: #ffffff;
+}
+
+
+/*
+background: #1b1b1b; gris oscuro
+#6ABA2F    verde palido
+
+*/
+
+body{font-family: Verdana,sans-serif;}
+#hoja{
+	border: 1px;
+    border-style: ridge;
+	border-color: #6ABA2F;
+	background: #fff;
+	/*border-radius: 10px;*/
+	box-shadow: 5px 7px 5px #ccc;
+}
+
+#hoja h2{
+	border-top: 3px solid #6ABA2F;
+	border-bottom: 3px solid #e0e0e0;
+	background: #6ABA2F;
+	color: #000;
+    text-align: left;
+    padding-left: 2%;
+	margin: 0;
+}
+#op {
+	font-size: 11px;
+	background: #1b1b1b;
+	width: 100%;
+	display: block;
+}
+#op a{
+	float: right;
+}
+#hoja .conten_publicacion {padding: 0 8px;}
+#hoja hr{box-shadow: 1px 1px 5px #ccc;
+
+}
+#seccion{
+	margin-top: 10px;
+	background: #fff;
+	border: 1px;
+	border-style: ridge;
+	border-color: #6ABA2F;
+	background: #1b1b1b;
+	height: 30px;
+	box-shadow: 5px 7px 5px #ccc;
+}#seccion h5{
+	vertical-align: center;
+	text-align: center;
+	margin: 2px;
+	color:#ccc;
+}
+.vmcontent{
+	font-size: 12px;
+	text-align: left; 
+	white-space: normal;
+	padding-left: 20px;
+	width: auto; 
+	
+}
+
+.bar {
+background: #ccc;
+border-top: solid 1px #eee;
+width: 100%;
+box-sizing: border-box;
+float: left;
+margin: 25px 0 0 0;
+padding: 15px 20px 7px 20px;
+font-size: 14px;
+font-size: .875rem;
+position: relative;
+color: #98a5b8;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;}
+
+
+
+/*opcional para la lista de publicaciones*/
+.herra_ultimos_tit {
+height: 44px;
+background: #f13517 url(images/bck_titu_ultimo.png) repeat-x bottom;
+font-size: 20px;
+font-family: "museo-sans","Lucida Grande",sans-serif;
+font-weight: 100;
+color: #FFF;
+padding: 15px 0 0 14px;
+text-transform: uppercase;
+}
+
+.herra_ultimos {
+background: #dcdcdc url(images/bck_herra_ultimos.jpg) repeat-x bottom;
+color: #535353;
+font: normal 11px "Lucida Grande",sans-serif;
+padding: 0 18px 10px 15px;
+margin: 0 0 20px 0;
+}
+.herra_ultimos_mod {display: inline-block;
+border-bottom: 1px solid #FFF;
+padding: 0 0 6px 0;
+margin: 6px 0 0px 0;
+}
+.herra_ultimos_fotos {
+float: left;
+width: 125px;
+position: relative;
+}
+.herra_ultimos_texto {
+float: left;
+width: auto;
+padding: 12px 0 0 0;
+color: #535353;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+
+/*opcional para la lista de publicaciones fin*/
+
+.caja_ar {
+outline: 0;
+font-size: 100%;
+background: transparent;
+}
+.art_item{
+
+	padding-bottom: 10px !important;
+    overflow: hidden;
+}
+.art_iten .contenedor{
+color: #fff;
+
+}
+.contenedor h1{
+
+font-size: 40px;
+line-height: 1em;
+position: relative;
+z-index: 1;
+vertical-align: baseline;
+letter-spacing: 0 !important;
+font-weight: 200;
+color: #757575;
+margin: 0!important;
+padding: 15px 0 !important;
+}
+.creado{
+width: 100%;
+float: left;
+margin-top: 4px;
+color: red;
+font-size: 12px;
+}
+.creado span{
+margin-top: 4px;
+color: #ccc !important;
+}
+.compartir{
+font-size: 12px;
+padding-left: 20px !important;
+margin-bottom: 0px !important;
+float: right;
+}
+.compartir a{
+color: #333333;
+float: right;
+padding-bottom: 2px !important;}
+
+.itemcategoria{
+
+min-width: 100px;
+float: left;
+margin-bottom: 0px !important;
+padding-left: 2px;
+font-size: 12px;
+margin-bottom: 5px !important;
+padding-bottom: 1px;
+padding-top: 1px;
+
+}
+.itemauthor {
+margin-left: 10px !important;
+margin-bottom: 0px !important;
+padding-left: 20px !important;
+float: left;
+min-width: 67px;
+}
